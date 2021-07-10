@@ -1,0 +1,42 @@
+p {
+  font-family: Lato;
+}
+
+input[type="date"].disabled::-webkit-inner-spin-button {
+  display: none;
+}
+
+.btn {
+  background-color: #2386ac;
+  color: white;
+}
+
+.row {
+  margin-right: 20px;
+}
+body {
+  background-color: #08264c;
+}
+
+.scoreboard {
+  border-color: white;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.player1 {
+  border-style: dotted;
+  border-color: gray;
+  border-width: 2px;
+  width: 500px;
+  height: 600px;
+  border-right-style: none;
+}
+
+.player2 {
+  border-style: dotted;
+  border-color: gray;
+  border-width: 2px;
+  width: 500px;
+  height: 600px;
+}
